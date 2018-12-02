@@ -1,0 +1,23 @@
+form div.step {
+    display:none;
+}
+
+form div.step p.step{
+    text-align:center;
+    font-size:28px;
+}
+form div.step p input{
+    float:right;
+}
+
+button.back {
+    display:none;
+}
+
+button.finish {
+    display:none;
+}
+
+div.message {
+    display: none;
+}

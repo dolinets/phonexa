@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h1>Auto insurance</h1>
+                    <form>              
+                        <div class="step">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="number" class="form-control" id="age" placeholder="Enter age" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="driverLicense">Driver License</label>
+                                <input type="text" class="form-control" id="driverLicense" placeholder="Enter Driver License" required>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="form-group">
+                                <label for="make">Make (car brand)</label>
+                                <select class="form-control" id="make" required>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="model">Model</label>
+                                <select class="form-control" id="model"  required>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control" id="year"  required>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" class="form-control" id="city" placeholder="Enter City" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Enter Phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+                            </div>
+                        </div>
+                        <p class="talign">
+                           <button type="button" class="btn btn-primary back">Previous</button>
+                            <button type="button" class="btn btn-primary next">Next</button>
+                            <button type="button" class="btn btn-primary finish">Submit</button>
+                        </p>
+                    </form>
+                    <div class="message">Thank You Message!</div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
